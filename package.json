@@ -1,0 +1,29 @@
+{
+  "name": "clientvault-backend",
+  "version": "1.0.0",
+  "description": "This project allows you to storage user data for freelances such as customers information, payments , tracking, etc.\r # ¿Why did i make this project?\r I needed a way to storage my clients data and i wanted to develop a tool everybody could use, so feel free to use it.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgarespnz/clientVault-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edgarespnz/clientVault-backend/issues"
+  },
+  "homepage": "https://github.com/edgarespnz/clientVault-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "sequelize": "^6.35.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
