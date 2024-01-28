@@ -4,7 +4,7 @@
   "description": "This project allows you to storage user data for freelances such as customers information, payments , tracking, etc.\r # ¿Why did i make this project?\r I needed a way to storage my clients data and i wanted to develop a tool everybody could use, so feel free to use it.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/edgarespnz/clientVault-backend#readme",
   "dependencies": {
+    "dotenv": "^16.4.1",
     "express": "^4.18.2",
     "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
     "sequelize": "^6.35.2"
   },
   "devDependencies": {
