@@ -41,7 +41,7 @@ router.put('/user/:id', async (req, res) => {
     try {
         const result = await userService.putUser(id, userData);
         if (result.success) {
-            return res.status(200).json(result.user);
+            return res.status(200).json(result);
         } else {
             return res.status(400).json({
                 message: result.message
